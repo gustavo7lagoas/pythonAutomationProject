@@ -1,0 +1,41 @@
+Test Strategy for Envygram 1.6
+
+Types of test planned
+
+1 - Smoke tests Using Web Automation (Selenium Python)
+2 - API Testing (Requests + Unittest)
+3 - Load and Performance Tests (Locust)
+
+Points explained
+
+1 - Smoke Tests
+Because automation using Selenium is slower than api testing approach we will
+select only test cases that relates to the business value of Envygram. Those
+test cases will be similar to use cases covering more than one screen. It can 
+cover some negative tests when it is important for delivering business value.
+Any questions about the business value will be asked to the team member
+responsible for collecting and managing the requirements, for example
+the product owner. Those tests will provide feedback regarding value delivered
+and also will be a good regression test suite.
+
+Considering the document Envygram_1.6.pdf those can be some of the possible
+Web Automated test cases:
+    - Check all ways of create and login an Envygram Account: Facebook, Twitter, 
+    Instagram, Pinterest and Email (total 5 test cases)
+    - The Envy button behavior (with the user logged in or not logged in)
+    - Envygram_Viewing_APost business value
+    - Envygram_Viewing_Profiles business value - affiliate tracking is an
+    important feature
+    - Ads Mechanism and the way Envygram makes money
+
+2 - Api Testing
+Running faster than Selenium Tests all operations available by the API should
+be tested. That will grow the confidence on the low level operations and allows
+a smaller number of Front End UI test cases. To execute this properly it is
+necessary that the API documentation became available to me.
+
+3 - Load and Performance Testing
+It will depends on the infrastructure available. We will check the possible
+usage of Envygram and create the load based on the percentage of users for
+each functionality.
+
