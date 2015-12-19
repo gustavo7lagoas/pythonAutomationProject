@@ -2,6 +2,10 @@
 
 This is a very simple automation project using python
 
+## About the test strategy applied on this project
+
+All information regarding the test strategy for this project is available in the testStrategy.txt file
+
 ## Requirements
 
 To run those tests you will need the following packages
