@@ -31,4 +31,4 @@ or
 $ python alltestssuite.py --html
 ```
 
-For a HTML report named 
+For a HTML report named AllTestReport.html
